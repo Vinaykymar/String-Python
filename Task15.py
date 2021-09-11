@@ -1,0 +1,6 @@
+s = raw_input("Enter string:")
+sub_str = raw_input("Enter  Sub String:")
+if(s.find(sub_str) == -1):
+      print("Substring not found in string!")
+else:
+      print("Substring in string!")
